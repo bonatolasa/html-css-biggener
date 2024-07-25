@@ -1,0 +1,136 @@
+body {
+  color: #444;
+  font-family: sans-serif;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098da;
+  border-bottom: 5px solid #1098da;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif;
+  color: #444;
+}
+h1,
+h2,
+h3 {
+  color: #1098da;
+}
+
+h1 {
+  font-size: 26px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+li {
+  font-size: 18px;
+}
+
+/*
+article header p {
+   font-size: 18px;
+    font-style: italic;
+}
+*/
+#laura {
+  font-size: 18px;
+  font-style: italic;
+}
+
+/*
+footer {
+    font-size: 16px;
+} 
+    */
+#copyright {
+  font-size: 16px;
+}
+
+.author {
+  list-style: none;
+}
+
+.author-related {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/*
+.frist {
+    font-weight: bold;
+} 
+    */
+
+/*
+    pseudo-class
+    */
+li:first-child {
+  font-style: italic;
+}
+li:last-child {
+  font-weight: bold;
+}
+/*
+li:nth-child(even){
+   color:red; 
+}
+   */
+/*
+article header p:nth-child(3){
+    background-color: #ff0000;
+ }
+*/
+
+/* STAYLING HYPERLINK */
+/* LVHA */
+a:link {
+  color: #1098da;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098da;
+}
+
+a:hover {
+  color: #eb300f;
+  font-weight: bold;
+  text-decoration: underline #eb300f;
+}
+
+a:active {
+  background-color: rgb(95, 84, 84);
+  font-style: italic;
+}
