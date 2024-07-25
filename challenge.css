@@ -6,25 +6,24 @@ body {
   font-family: sans-serif;
   line-height: 1.4;
 }
-.content {
+/*  .content {
   width: 820px;
-  margin: 0 auto;
-}
+  margin: 0 auto; 
+} */
 .product {
   border: 4px solid #000;
   width: 825px;
   margin: 50px auto;
 }
 
-.product-title {
+.product-topic {
   font-size: 22px;
   text-align: center;
   background-color: #ece8e8;
   text-transform: uppercase;
-  margin: 0;
-  padding: 15px 0;
+  padding: 15px;
 }
-.product-detail {
+.product-title {
   font-size: 16px;
   text-transform: uppercase;
   margin: 30px 0;
@@ -32,24 +31,14 @@ body {
 }
 .price {
   font-size: 24px;
-  padding-top: 5px;
-  padding-right: 3px;
-  margin: 0;
 }
-.price-con {
-  margin: 0;
-  padding: 0 2px 2px;
-}
+
 .shipping {
   font-size: 12px;
   text-transform: uppercase;
   font-weight: bold;
   color: #777;
-  margin-top: 0;
-  padding: 0px 2px;
-}
-.reading-part {
-  margin: 20px 0;
+  margin-bottom: 20px;
 }
 .more-info:link {
   color: #000000;
@@ -66,7 +55,7 @@ body {
 }
 .detail-list {
   list-style: square;
-  margin-left: 25px;
+  margin-left: 20px;
 }
 .add-cart {
   background-color: black;
@@ -76,15 +65,16 @@ body {
   border: none;
   cursor: pointer;
   width: 100%;
-  border-top: #000 solid;
+  border-top: 4px #000 solid;
   margin-bottom: 0;
+  padding: 15px;
 }
 .add-cart:hover {
   color: #000;
   background-color: #fff;
 }
 li {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 li:last-child {
   margin-bottom: 0;
