@@ -14,6 +14,7 @@ body {
   border: 4px solid #000;
   width: 825px;
   margin: 50px auto;
+  position: relative;
 }
 
 .product-topic {
@@ -22,12 +23,30 @@ body {
   background-color: #ece8e8;
   text-transform: uppercase;
   padding: 15px;
+  /* position: relative; */
+}
+
+.sale-top {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: #ec2f2f;
+  color: #ffffff;
+  padding: 7px 15px;
+  display: inline-block;
+  /* width: 40px;
+  text-align: center; */
+  position: absolute;
+  top: -17px;
+  left: -36px;
 }
 .product-title {
   font-size: 16px;
   text-transform: uppercase;
   margin: 30px 0;
   padding: 15px 0;
+  /* position: relative; */
 }
 .price {
   font-size: 24px;
@@ -42,6 +61,8 @@ body {
 }
 .more-info:link {
   color: #000000;
+  margin-bottom: 30px;
+  display: inline-block;
 }
 .more-info:visited {
   color: #000000;
@@ -78,4 +99,28 @@ li {
 }
 li:last-child {
   margin-bottom: 0;
+}
+.color {
+  height: 25px;
+  width: 25px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.frist {
+  background-color: #000;
+}
+.second {
+  background-color: #0000ff;
+}
+.thrid {
+  background-color: #ff0000;
+}
+.forth {
+  background-color: #ff0;
+}
+.fifth {
+  background-color: green;
+}
+.last {
+  background-color: #6d59597c;
 }
