@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   color: #444;
@@ -9,7 +10,7 @@ body {
   position: relative;
 }
 .container {
-  width: 800px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -22,6 +23,7 @@ nav {
   font-size: 18px;
   text-align: center;
 }
+/* PSEUDO-ELEMENT */
 h1::first-letter {
   font-style: normal;
   margin-right: 5px;
@@ -49,8 +51,7 @@ aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
-  padding: 50px 0;
-  width: 500px;
+  padding: 50px 40px;
 }
 
 .post-img {
@@ -105,6 +106,7 @@ h4 {
   font-size: 24px;
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
 p {
@@ -145,6 +147,7 @@ footer {
 
 .author {
   list-style: none;
+  margin-left: 0;
 }
 
 .related-author {
@@ -206,8 +209,51 @@ button {
   font-size: 22px;
   padding: 20px;
   cursor: pointer;
-
   position: absolute;
   bottom: 50px;
   right: 50px;
+}
+
+/* FLOATS */
+
+.laura-img {
+  float: left;
+  margin-bottom: 10px;
+}
+.laura {
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.clear-fix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+article {
+  width: 825px;
+  float: left;
+}
+
+aside {
+  width: 300px;
+  float: right;
+}
+
+footer {
+  clear: both;
 }
