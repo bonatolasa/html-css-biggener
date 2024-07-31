@@ -3,18 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <link href="style.css" rel="stylesheet" />
-    <title>The Basic Language Of HTML</title>
+    <title>The Basic Language Of The Web</title>
   </head>
   <body>
     <div class="container">
-      <header class="main-header">
+      <header class="main-header clear-fix">
         <h1>📘 The Code Magazine</h1>
         <nav>
           <a href="blog.html">Blog</a>
           <a href="challenge.html">Challenges</a>
           <a href="#">Flexbox</a>
-          <a href="#">CSS-Grid</a>
+          <a href="#">CSS Grid</a>
         </nav>
+        <!-- <div class="clear"></div> -->
       </header>
 
       <article>
@@ -25,8 +26,9 @@
             alt="Headshot of Laura"
             width="50"
             height="50"
+            class="laura-img"
           />
-          <p id="laura">
+          <p id="laura" class="laura">
             Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
           </p>
           <img
@@ -62,7 +64,7 @@
 
         <p>In HTML, each element is made up of 3 parts:</p>
         <ol>
-          <li class="frist">The opening tag</li>
+          <li class="frist-li">The opening tag</li>
           <li>The closing tag</li>
           <li>The actual element</li>
         </ol>
@@ -80,7 +82,7 @@
           web. Here are 5 of them:
         </p>
         <ul>
-          <li class="frist">
+          <li class="frist-li">
             To be able to use the fundamental web dev language
           </li>
           <li>
@@ -101,31 +103,31 @@
             <img
               src="img/related-1.jpg"
               alt="Programming person"
-              width="50"
-              height="50"
+              width="75"
+              height="75"
             />
             <a href="#"> How To Learn Web Development</a>
+            <p class="related-author">By Bonah</p>
           </li>
-          <p class="author-related">By Bonah</p>
           <li>
             <img
               src="img/related-2.jpg"
               alt="Lightening(mebreq)"
-              width="50"
-              height="50"
+              width="75"
+              height="75"
             />
             <a href="#"> The Unknown Powers Of CSS</a>
+            <p class="related-author">By Amir Dallas</p>
           </li>
-          <p class="author-related">By Amir Dallas</p>
           <li>
             <img
               src="img/related-3.jpg"
               alt="javascript code on screen"
-              width="50"
-              height="50"
+              width="75"
+              height="75"
             /><a href="#"> Why Javascript is Awesome</a>
+            <p class="related-author">By KetiBeki</p>
           </li>
-          <p class="author-related">By KetiBeki</p>
         </ul>
       </aside>
 
