@@ -7,7 +7,8 @@ body {
   font-family: sans-serif;
   line-height: 1.4;
 }
-
+/* FLEXBOX LAYOUT PART */
+/* 
 .clearfix::after {
   content: "";
   display: block;
@@ -17,7 +18,7 @@ body {
 .container {
   display: flex;
   gap: 40px;
-}
+} */
 
 /* PRODUCT */
 
@@ -26,6 +27,11 @@ body {
   width: 825px;
   margin: 50px auto;
   position: relative;
+
+  /* CSS GRID LAYOUT */
+  display: grid;
+  grid-template-columns: 250px 1fr 1fr;
+  column-gap: 40px;
 }
 
 .product-topic {
@@ -34,6 +40,9 @@ body {
   background-color: #f7f7f7;
   text-transform: uppercase;
   padding: 15px;
+
+  /* CSS GRID LAYOUT */
+  grid-column: 1 / -1;
 }
 
 /* PRODUCT INFORMATION */
@@ -165,6 +174,10 @@ li:last-child {
   border-top: 4px #000 solid;
   margin-bottom: 0;
   padding: 15px;
+
+  /* CSS GRID LAYOUT */
+  /* grid-column: 1 / span 3; */
+  grid-column: 1 / -1;
 }
 .add-cart:hover {
   color: #000;
