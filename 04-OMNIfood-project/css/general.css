@@ -30,6 +30,10 @@
   grid-template-columns: repeat(4, 1fr);
 }
 
+.grid--5--cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
 .grid--center-v {
   align-items: center;
 }
@@ -69,7 +73,7 @@
   margin-bottom: 1.6rem;
   letter-spacing: 0.75px;
 }
-
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -80,6 +84,9 @@
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
 
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
   transition: all 0.3s;
 }
 
@@ -108,6 +115,18 @@
 
 .margin-right-sm {
   margin-right: 1.6rem !important;
+}
+
+.btn--form {
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
 }
 
 .link:link,
@@ -144,6 +163,11 @@
   width: 3rem;
   height: 3rem;
   color: #e67e22;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
 }
 
 .margin-bottom-md {
