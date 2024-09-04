@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,6 +12,8 @@
     />
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <title>OMNIFOOD</title>
@@ -20,7 +23,8 @@
       <a href="#">
         <img class="logo" alt="omnifood-logo" src="img/omnifood-logo.png" />
       </a>
-        <div class="main-nav">
+
+        <nav class="main-nav">
           <ul class="main-nav-lists">
           <li><a href="#" class="main-nav-link">How it works</a></li>
           <li><a href="#" class="main-nav-link">Meals</a></li>
@@ -28,7 +32,12 @@
           <li><a href="#" class="main-nav-link">Pricing</a></li>
           <li><a href="#" class="main-nav-link nav-cta">Try for free</a></li>
         </ul>
-      </div>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
     </header>
 
     <main>
@@ -547,6 +556,7 @@
 
     <footer class="footer">
       <div class=" container grid grid--5--cols" >
+
         <div class="logo-col">  <a href="#" class="footer-logo">
           <img class="logo" alt="omnifood-logo" src="img/omnifood-logo.png" />
           </a>
@@ -557,8 +567,8 @@
           </ul>
 
           <p class="copyright">Copyright &copy; 2027 by Omnifood,Inc.All right reservid</p>
-
         </div>
+
         <div class="address-col">
           <p class="footer-heading">Contact us</p>
           <address class="contacts">
@@ -569,6 +579,7 @@
             </p>
           </address>
         </div>
+
         <nav class="nav-col">
           <p class="footer-heading">Account</p>
           <ul class="footer-nav">
